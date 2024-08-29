@@ -42,6 +42,13 @@ python run_training.py \
   --data.seq-name horsejump-low
 ```
 
+```python
+python run_rendering.py \
+  --work-dir <OUTPUT_DIR> \
+  data:custom \
+  --data.seq-name horsejump-low
+```
+
 ## Evaluation on iPhone Dataset
 First, download our processed iPhone dataset from [this](https://drive.google.com/drive/folders/1xJaFS_3027crk7u36cue7BseAX80abRe?usp=sharing) link. To train on a sequence, e.g., *paper-windmill*, run:
 
